@@ -1,0 +1,268 @@
+.body, .header, .footer, .collection, .texthtml, .question, .buttons, .queserror {
+	text-align:left;
+	width:auto;
+ }
+
+/* Collection Error*/
+.collerror { 
+	position:static;
+	background-color:#FFFFCC;
+	border-width:0px;
+	border-style:solid;
+	text-align:Center;
+	font-family:Arial;
+	font-size:1.1em;
+	color:#FF1100;
+	font-weight:bold;
+}
+  
+.collerror td { 
+	font-family:Arial;
+	font-size:1.25em;
+	color:#FF1100;
+	font-weight:bold;
+}
+
+/* BUTTONS */
+.button { 
+	background-color:#FFFFFF;
+	font-family:Arial;
+	font-size:1.25em;
+	color:#000000;
+	font-style:normal;
+	font-weight:bold;
+	text-decoration:none;
+	font-variant:normal;
+	width:45%;
+	height:auto;
+	padding: 1em 0 1em 0;
+ }
+
+td#datstat_bottomcenterbuttons {
+	display:none;
+}
+
+td#datstat_bottomrightbuttons {
+	display:none;
+}
+
+/* TEXT HTML*/
+.texthtml .wrapper {  
+	font-family:Arial;
+	font-size:1.25em;
+	color:#000000;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	font-variant:normal;
+  }
+.texthtml td	{ 
+	font-family:Arial;
+	font-size:1.25em;
+	color:#000000;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	font-variant:normal;
+  }
+
+/* NUMBER */
+.number { 
+	font-family:Arial;
+	font-size:1.25em;
+	color:#000000;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	font-variant:normal;
+  }
+		
+/* LABEL */
+.label, .label td { 
+	font-family:Arial;
+	font-size:1.25em;
+	color:#000000;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	font-variant:normal;
+  }
+
+/* PROMPT */
+.prompt { 
+	font-family:Arial;
+	font-size:1.25em;
+	color:#000000;
+	font-weight:bold;
+  }
+		
+/* CONTROLS */
+.textInput	{ 
+	font-family:Arial;
+	font-size:1.25em;
+	color:#000000;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	font-variant:normal;
+  }	
+  
+.radioButton { 
+	height:40px;
+	width:40px;
+   }
+   
+.checkbox { 
+	height:40px;
+	width:40px;
+}
+/*
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width: 40px;
+	height: 40px;
+}
+
+input[type="radio"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width: 40px;
+	height: 40px;
+}
+*/
+
+/* Text input */
+input.textInput {
+	width: 200px;
+} 
+
+/* Commentary */
+textarea.textInput{
+	width:250px;
+}
+ 
+/* QUESTION ERROR */
+.queserror { 
+	position:static;
+	background-color:#FFFFCC;
+	border-color:#FF1100;
+	border-width:1px;
+	border-style:solid;
+	padding-top:6.00px;
+	padding-left:6.00px;
+	padding-bottom:6.00px;
+	padding-right:6.00px;
+	text-align:Center;
+	font-family:Arial;
+	font-size:1.0em;
+	color:#FF1100;
+	font-weight:bold;
+  }
+
+/* SUB NUMBER not sure what this is for */
+.block .row .subnumber { 
+	font-family:Arial;
+	font-size:1.25em;
+	color:#333000;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	font-variant:normal;
+}
+
+
+/*LEFT ROW HEADER*/
+.block .row .rowprompt { 
+	font-family:Arial;
+	font-size:1.25em;
+	color:#000000;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	font-variant:normal;
+}
+
+/* TOP COLUMN HEADER 3*/
+.block td.columnHeader { 
+	border-color:#D4D4D4;
+	border-width:1px;
+	border-style:solid;
+	border-bottom: 1px solid #000000;
+	background-color:#FFFFFF;
+	font-family:Arial;
+	font-size:1.25em;
+	color:#333333;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	font-variant:normal;
+	text-align:Center;
+  }
+
+/* PROMPT HEADER */
+.block td.promptHeader { 
+	border-bottom-color:;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-right-color:;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-left:0px;
+	border-top:0px;
+	background-color: transparent;
+	font-family:Arial;
+	font-size:1.25em;
+	color:#333333;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	font-variant:normal;
+	padding-top:0.50em;
+	padding-left:0.50em;
+	padding-bottom:0.50em;
+	padding-right:0.50em;
+  }
+
+/* Prompt Group Header */
+td.ds-promptGroupHeader { 
+	border-color:#D4D4D4;
+	border-width:1px;
+	border-style:solid;
+	font-family:Arial;
+	font-size:1.25em;
+	color:#333333;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	font-variant:normal;
+	padding-top:0.50em;
+	padding-left:0.50em;
+	padding-bottom:0.50em;
+	padding-right:0.50em;
+  }
+  
+.block td.ds-tableResponseGroupHeader { 
+	font-family:Arial;
+	font-size:1.25em;
+	color:#333333;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	font-variant:normal;
+	padding-top:0.50em;
+	padding-left:0.50em;
+	padding-bottom:0.50em;
+	padding-right:0.50em;
+  }
+
+
+/* HIDE DESKTOP HEADER */
+#deskHead {
+	display:none;
+ }
+
+/* HIDE DESKTOP CONSENT */
+#consentScroller {
+	display:none;
+ }
